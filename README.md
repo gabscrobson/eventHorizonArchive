@@ -5,6 +5,7 @@
   <li>Rotate logo when hovered</li>
   <li>Black, white, purple and orange collor pallette</li>
   <li>Foto do Gargantua na landing page</li>
+  <li>https://css-tricks.com/almanac/selectors/s/selection/</li>
 </ul>
 <h2>Topics</h2>
 <ul>
