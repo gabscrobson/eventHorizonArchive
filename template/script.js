@@ -9,9 +9,6 @@ window.onscroll = function() {
     document.getElementById("navbar").style.top = "-70px";
   }
 
-  if (prevScrollpos != currentScrollPos) {
-    document.getElementById("mobileMenu").style.cssText = "display: none";
-  }
   prevScrollpos = currentScrollPos;
 }
 
