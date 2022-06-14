@@ -1,5 +1,6 @@
 <h1>Tasks</h1>
 <ul>
+  <li>Favicon</li>
   <li>Minimalist scroll</li>
   <li>Section 2</li>
   <li>Footer</li>
