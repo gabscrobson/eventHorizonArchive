@@ -1,5 +1,4 @@
 /* ======= GENERAL ======= */
-
 * {
     margin: 0px;
     padding: 0px;
@@ -12,10 +11,16 @@ body {
     margin-top: 70px;
 }
 
-#headerContent {
+#headerContent, .section1Content {
     max-width: 1280px;
     margin: auto;
     width: 90%;
+}
+
+/* ======= SELECTION ======= */
+::selection {
+    background: white;
+    color: #090000;
 }
 
 /* ======= TEXT ======= */
@@ -41,6 +46,18 @@ h1 {
     font-size: 1.9em;
 }
 
+.imageLegend {
+    font-size: 1.2em;
+    float: right;
+}
+
+.bOrange {
+    color: #DB832D;
+}
+
+.bRed {
+    color: #820500;
+}
 /* ======= HEADER ======= */
 header {
     background-color: white;
@@ -135,4 +152,49 @@ header {
 
 .logoTitle {
 	height: 49px;
+}
+
+/* ======= SECTION 1 ======= */
+.section1 {
+    color: white;
+    padding: 150px 0px;
+}
+
+.section1Left {
+    width: 45%;
+    display: inline-block;
+}
+
+.section1Right {
+    width: 53%;
+    float: right;
+    height: 100px;
+}
+
+.section1h1 {
+    font-size: 2em;
+}
+
+.section1p {
+    margin-top: 20px;
+    font-size: 1.4em;
+}
+
+.section1Image {
+    width: 100%;
+    border: 2px solid white;
+}
+
+@media screen and (max-width: 1100px) {
+    .section1Left {
+        width: 100%;
+        display: block;
+    }
+
+    .section1Right {
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+    }
+
 }
