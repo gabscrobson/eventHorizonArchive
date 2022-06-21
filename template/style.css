@@ -157,7 +157,7 @@ header {
 /* ======= SECTION 1 ======= */
 .section1 {
     color: white;
-    padding: 100px 0px;
+    padding: 50px 0px;
 }
 
 .section1Left {
@@ -168,7 +168,6 @@ header {
 .section1Right {
     width: 53%;
     float: right;
-    height: 100px;
 }
 
 .section1h1 {
@@ -186,10 +185,7 @@ header {
 }
 
 @media screen and (max-width: 1100px) {
-    .section1 {
-        padding: 50px 0px;
-    }
-    
+
     .section1Left {
         width: 100%;
         display: block;
@@ -198,6 +194,7 @@ header {
     .section1Right {
         width: 100%;
         float: none;
+        display: block;
         margin-top: 20px;
     }
 
