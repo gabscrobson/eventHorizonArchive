@@ -2,6 +2,7 @@
 <ul>
   <li>Make header transition cleaner</li>
   <li>Section 2 aligned center</li>
+  <li>change text color</li>
   <li>Favicon</li>
   <li>Minimalist scroll</li>
   <li>Section 2</li>
