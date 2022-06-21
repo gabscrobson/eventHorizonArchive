@@ -1,6 +1,7 @@
 <h1>Tasks</h1>
 <ul>
   <li>Make header transition cleaner</li>
+  <li>Section 2 aligned center</li>
   <li>Favicon</li>
   <li>Minimalist scroll</li>
   <li>Section 2</li>
