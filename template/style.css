@@ -11,8 +11,24 @@ body {
     margin-top: 70px;
 }
 
-#headerContent, .section1Content {
-    max-width: 1280px;
+section {
+    padding: 30px 0px 0px 0px;
+}
+
+@media screen and (max-width: 550px) {
+    section {
+        font-size: .85em;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    section {
+        font-size: 1.15em;
+    }
+}
+
+#headerContent, .section1 {
+    max-width: 1000px;
     margin: auto;
     width: 90%;
 }
@@ -28,36 +44,29 @@ body {
     text-decoration: none;
 }
 
-.aAnchors {
-    font-size: 1.3em;
-    font-weight: 500;
-    display: inline-block;
-    padding: 15px 15px;
-    text-decoration: none;
-    color: #090000;
-}
-
-.aAnchors:hover {
-    background-color: #820500;
-    color: white;
-}
-
 h1 {
-    font-size: 1.9em;
+    font-size: 1.5em;
 }
 
-.imageLegend {
-    font-size: 1.2em;
+.textp {
+    margin-top: 20px;
+    font-size: 1.3em;
+}
+
+.textlegend {
+    font-size: .9em;
     float: right;
 }
 
-.bOrange {
-    color: #DB832D;
+.texta {
+    text-decoration: none;
+    color:#ac0600;
 }
 
-.bRed {
-    color: #820500;
+.texta:hover {
+    text-decoration: underline;
 }
+
 /* ======= HEADER ======= */
 header {
     background-color: white;
@@ -71,6 +80,20 @@ header {
 
 .headerAnchors {
     float: right;
+}
+
+.aAnchors {
+    font-size: 1.3em;
+    font-weight: 500;
+    display: inline-block;
+    padding: 15px 15px;
+    text-decoration: none;
+    color: #090000;
+}
+
+.aAnchors:hover {
+    background-color: #820500;
+    color: white;
 }
 
 .headerHamburger {
@@ -154,54 +177,26 @@ header {
 	height: 49px;
 }
 
-/* ======= SECTION 1 ======= */
-.section1 {
-    color: white;
-    padding: 50px 0px;
+/* ======= IMAGES ======= */
+.textimg {
+    border: 2px solid white;
+    width: 100%;
+    margin-top: 20px;
 }
 
-.section1Left {
-    width: 45%;
+.imagediv {
     display: inline-block;
 }
 
-.section1Right {
-    width: 53%;
+.imagedivRight {
     float: right;
 }
 
-.section1h1 {
-    font-size: 2em;
+#img1 {
+    max-width: 400px;   
 }
 
-.section1p {
-    margin-top: 20px;
-    font-size: 1.4em;
-}
-
-.section1Image {
-    width: 100%;
-    border: 2px solid white;
-}
-
-@media screen and (max-width: 1100px) {
-
-    .section1Left {
-        width: 100%;
-        display: block;
-    }
-
-    .section1Right {
-        width: 100%;
-        float: none;
-        display: block;
-        margin-top: 20px;
-    }
-
-@media screen and (max-width: 550px) {
-    .section1 {
-        font-size: .85em;
-    }
-}
-
+/* ======= SECTION 1 ======= */
+.section1 {
+    color: white;
 }
