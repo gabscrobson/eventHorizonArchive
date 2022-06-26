@@ -15,28 +15,22 @@ section {
     padding: 30px 0px 0px 0px;
 }
 
-@media screen and (max-width: 550px) {
-    section {
-        font-size: .85em;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    section {
-        font-size: 1.15em;
-    }
-}
-
-#headerContent, .section1 {
+#headerContent, .section1, .footerContent {
     max-width: 1000px;
     margin: auto;
     width: 90%;
 }
 
+@media screen and (min-width: 1300px) {
+    #headerContent, .section1, .footerContent {
+        max-width: 1200px;
+    }
+}
+
 /* ======= SELECTION ======= */
 ::selection {
-    background: white;
-    color: #090000;
+    background: #820500;
+    color: white;
 }
 
 /* ======= TEXT ======= */
@@ -65,6 +59,18 @@ h1 {
 
 .texta:hover {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 550px) {
+    section {
+        font-size: .85em;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    section {
+        font-size: 1.15em;
+    }
 }
 
 /* ======= HEADER ======= */
@@ -193,10 +199,38 @@ header {
 }
 
 #img1 {
-    max-width: 400px;   
+    max-width: 700px;   
 }
 
 /* ======= SECTION 1 ======= */
 .section1 {
     color: white;
+}
+
+/* ======= FOOTER ======= */
+footer {
+    margin-top: 40px;
+    background-color: white;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.footerLogosContainer {
+    float: right;
+}
+
+.footerLogos {
+    width: 38px;
+    margin: 11px 5px 0px 5px;
+}
+
+.footerLogos:hover {
+    filter:  invert(9%) sepia(93%) saturate(3689%) hue-rotate(10deg) brightness(105%) contrast(116%);
+}
+
+.footerp {
+    vertical-align: middle;
+    display: inline-block;
+    width: 60%;
+    font-weight: 400;
 }
