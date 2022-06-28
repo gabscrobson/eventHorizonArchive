@@ -198,6 +198,22 @@ header {
     max-width: 700px;   
 }
 
+#img2 {
+    max-width: 400px;
+}
+
+#img3 {
+    max-width: 400px;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 920px) {
+    #img3 {
+        margin-left: 0px;
+        display: block;
+    }
+}
+
 /* ======= SECTION 1 ======= */
 .section1 {
     color: white;
