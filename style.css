@@ -33,6 +33,10 @@ section {
     color: white;
 }
 
+.texta::selection {
+    color: black;
+    background:#820500;
+}
 /* ======= TEXT ======= */
 .aNone {
     text-decoration: none;
@@ -214,6 +218,21 @@ header {
     }
 }
 
+#img4 {
+    vertical-align: top;
+    max-width: 450px;
+}
+
+#img5 {
+    margin-left: 20px;
+    max-width: 565px;
+}
+
+@media screen and (max-width: 1300px) {
+    #img5 {
+        margin-left: 0px;
+    }
+}
 /* ======= SECTION 1 ======= */
 .section1 {
     color: white;

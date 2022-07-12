@@ -33,6 +33,11 @@ section {
     color: white;
 }
 
+.texta::selection {
+    color: black;
+    background:#820500;
+}
+
 /* ======= TEXT ======= */
 .aNone {
     text-decoration: none;
